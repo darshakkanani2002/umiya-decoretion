@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umiya Decoration</title>
+    <!-- fav icon -->
+    <link rel="icon" href="./img/favicon.svg" type="image/icon">
+    <!--  css stylesheet link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navigation_bar navbar-expand-lg position-sticky top-0 z-3">
+        <div class="container">
+            <a class="navbar-brand nav-logo-01" href="#"><img src="./img/logo.svg" class="img-fluid logo-res"
+                    alt="logo"></a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+                aria-controls="navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                <div class="offcanvas-header justify-content-end">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-5">
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active" aria-current="page" href="#" data-section="home">HOME</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link text-nowrap " href="#about" data-section="about">ABOUT US</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link" href="#service" data-section="service">SERVICE</a>
+                        </li>
+                        <a class="navbar-brand nav-logo-02" href="#"><img src="./img/logo.svg" class="img-fluid"
+                                alt="logo"></a>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link" href="#video" data-section="video">VIDEOS</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link" href="#event" data-section="event">EVENTS</a>
+                        </li>
+
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link" href="#gallery" data-section="gallery">GALLERY</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section -->
+    <section id="home" class="mb-5">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-banner-01 position-relative ">
+                        <img src="./img/banner_hero_bg_01.svg" class="hero-swiper-img" alt="img_hero_01">
+                        <div class="position-absolute dream-wedding-text">
+                            <h1 data-aos="fade-up" data-aos-duration="2000">Your Dream Wedding planner</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-banner-01 position-relative ">
+                        <img src="./img/banner_hero_bg_02.svg" class="hero-swiper-img" alt="img_hero_01">
+                        <div class="position-absolute dream-wedding-text">
+                            <h1 data-aos="fade-up" data-aos-duration="2000">Destination <br> Wedding planner</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-banner-01 position-relative ">
+                        <img src="./img/banner_hero_bg_03.svg" class="hero-swiper-img" alt="img_hero_01">
+                        <div class="position-absolute dream-wedding-text">
+                            <h1 data-aos="fade-up" data-aos-duration="2000">Accomplishing The Dream Of A Magnificent
+                                Royal Wedding</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+
+            <div class="hero-button-next text-white me-4"><span class="pe-3 next-span">NEXT</span><img
+                    src="./img/ic-hero-next-icon.svg" alt="ic-hero-next-icon"></div>
+            <div class="hero-button-prev text-white ms-4"><img src="./img/ic-hero-prev-icon.svg"
+                    alt="ic-hero-prev-icon"><span class="ps-3 prev-span">PREV</span></div>
+        </div>
+    </section>
+    <!-- hero section end-->
+
+    <!-- About us section -->
+    <section id="about" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 about-us-photos px-4">
+                    <div class="position-relative">
+                        <div class="about-img-01 position-relative">
+                            <img src="./img/img_about_01.png" class="img-fluid" alt="img_about_01.png">
+                        </div>
+                        <div class="about-img-02 position-relative">
+                            <img src="./img/img_about_02.png" class="img-fluid" alt="img_about_02.png">
+                        </div>
+                        <div class="about-img-03 position-relative">
+                            <img src="./img/img_about_03.png" class="img-fluid" alt="img_about_03.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 about-us-text">
+                    <div class="px-3">
+                        <h1>About Us</h1>
+                        <p class="text-muted">Wedding Event’s & desire to flourish ventured into this industry. They
+                            leveraged their networking talent over the year to become one of the Jodhpur’s top Event
+                            Company. When business expended and attracted customer from neighboring cities. We’re a
+                            driven team of wedding enthusiasts working to build a new.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us section end  -->
+
+    <!-- our service section -->
+    <section id="service" class="my-5">
+        <div class="text-center header-text pt-3">
+            <h1>Our Services</h1>
+        </div>
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_client_service_001.jpeg" class="service-img-res"
+                            alt="img_client_service_001">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Planning & Management</h4>
+                                <p class="pb-0 text-muted">Your wedding is all about you and your family. Make sure you
+                                    don’t let<span id="dots_1">...</span> <span id="more_1" class="hideContent">the
+                                        biggest day of your life pass you by in a flurry of organization, negotiation,
+                                        meetings and decisions.</span><span><a class="raed_more_txt"
+                                            onclick="toggleText('dots_1', 'more_1', 'myBtn_1')" id="myBtn_1">READ
+                                            MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_service_02.png" class="service-img-res" alt="img_service_02.png">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Destination & Venue Selection</h4>
+                                <p class="pb-0 text-muted">Tamarind’s vast experience in the hospitality and tours
+                                    industry<span id="dots_2">...</span><span id="more_2" class="hideContent2"> ensures
+                                        that we have the
+                                        expertise to help you pick your dream
+                                        destination
+                                        and venue.</span><span><a class="raed_more_txt"
+                                            onclick="toggleText('dots_2', 'more_2', 'myBtn_2')" id="myBtn_2">READ
+                                            MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_service_03.png" class="service-img-res" alt="img_service_03.png">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Hospitality & Logistics</h4>
+                                <p class="pb-0 text-muted">amarind’s vast experience in the hospitality and tours
+                                    industry<span id="dots_3">...</span><span id="more_3" class="hideContent3"> ensures
+                                        that we have the
+                                        expertise to help you pick your dream
+                                        destination
+                                        and venue.</span><a class="raed_more_txt"
+                                        onclick="toggleText('dots_3', 'more_3', 'myBtn_3')" id="myBtn_3">READ
+                                        MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_service_04.png" class="service-img-res" alt="img_service_04">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Production Of Decor And Designs</h4>
+                                <p class="pb-0 text-muted">We realize that God is in the details and that extra touch
+                                    can make all<span id="dots_4">...</span><span id="more_4" class="hideContent4">
+                                        the difference to the look of a wedding event. Our own panel of designers work
+                                        closely with us.</span><a class="raed_more_txt"
+                                        onclick="toggleText('dots_4', 'more_4', 'myBtn_4')" id="myBtn_4">READ
+                                        MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_service_05.png" class="service-img-res" alt="img_service_05.png">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Entertainment & Artists</h4>
+                                <p class="pb-0 text-muted">With each passing year, weddings are looking to do
+                                    something<span id="dots_5">...</span><span id="more_5" class="hideContent5">
+                                        different. Tamarind has a network to source new talent and makes sure you get
+                                        the best.</span><a class="raed_more_txt"
+                                        onclick="toggleText('dots_5', 'more_5', 'myBtn_5')" id="myBtn_5">READ
+                                        MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_service_06.png" class="service-img-res" alt="img_service_06">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Catering Selection</h4>
+                                <p class="pb-0 text-muted">The single most important aspect for most of our weddings is
+                                    the<span id="dots_6">...</span><span id="more_6" class="hideContent6">
+                                        different. Tamarind has a network to source new talent and makes sure you get
+                                        the best.</span><a class="raed_more_txt"
+                                        onclick="toggleText('dots_6', 'more_6', 'myBtn_6')" id="myBtn_6">READ
+                                        MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our service section end-->
+
+    <!-- vedio section -->
+    <section class="mb-5" id="video">
+        <div class="vedio-background position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="videos-text">
+                            <h1>Videos</h1>
+                            <p class="text-muted ">We are a full- service Wedding Planning & Management company offering
+                                bespoke services to
+                                create a lavish wedding in India or abroad. Our team of passionate planners, designers,
+                                travel experts specialise in creating unforgettable wedding experiences in some of the
+                                world’s most exotic & exclusive locations. With a decade of experience in the industry,
+                                we ensure every aspect of your ceremony is made perfect with our impeccable execution.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-12 col-sm-12 text-center">
+                        <button id="toggle" class="tap" title="Play Video"><i id="icons"
+                                class="fa-solid fa-play"></i></button>
+                        <div class="col-lg-7 text-center">
+                            <div id="videoPopup" class="video-popup">
+                                <video id="player" preload="auto" loop="loop" muted width="100%" height="100%" controls>
+                                    <source src="./img/video_client_01.mp4" type="video/mp4" alt="video_client_01">
+                                    <source src="movie.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <button id="closeButton"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- vedio section end -->
+
+    <!-- even section start -->
+    <section id="event" class="mb-5">
+        <div class="text-center header-text py-3">
+            <h1>Events</h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_event_01.png" class="service-img-res" alt="img_event_01">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Jaipur</h4>
+                                <p class="pb-0 text-muted">We match your wedding vision to the perfect location. From
+                                    romantic<span id="dots_7">...</span> <span id="more_7" class="hideContent7">garden
+                                        settings to modern cityscapes, we find the perfect venue for your unique wedding
+                                        style.</span><span><a class="raed_more_txt"
+                                            onclick="toggleText('dots_7', 'more_7', 'myBtn_7')" id="myBtn_7">READ
+                                            MORE</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_event_02.png" class="service-img-res" alt="img_event_02">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Udaipur</h4>
+                                <p class="pb-0 text-muted">From elegant flower arrangements & beautiful table settings
+                                    to specialty<span id="dots_8">...</span> <span id="more_8"
+                                        class="hideContent8">lightings & creative backdrops, we ensure the ambiance is
+                                        perfect for your big day.</span><span><a class="raed_more_txt"
+                                            onclick="toggleText('dots_8', 'more_8', 'myBtn_8')" id="myBtn_8">READ
+                                            MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="service-section-hover px-2-setup">
+                        <img src="./img/img_event_03.png" class="service-img-res" alt="img_event_03">
+                        <div class="px-3 service_img_text_div">
+                            <div class="rounded p-3 service_img_text">
+                                <h4>Rajasthan</h4>
+                                <p class="pb-0 text-muted">Let the beautiful moments of your wedding celebrations be
+                                    captured<span id="dots_9">...</span> <span id="more_9" class="hideContent9">in
+                                        stunning detail & make memories of your big day that last a
+                                        lifetime.</span><span><a class="raed_more_txt"
+                                            onclick="toggleText('dots_9', 'more_9', 'myBtn_9')" id="myBtn_9">READ
+                                            MORE</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- even section end -->
+
+    <!-- customer section start -->
+    <section id="testimonial" class="mb-5">
+        <div class="testimonial-bg">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                </div>
+                <div class="col-lg-5 testimonial-section">
+                    <div class="swiper testimonial-swiper position-relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide testimonial-text text-start">
+                                <div class="p-4">
+                                    <h4>Our Customers</h4>
+                                    <p class="text-muted">A good coach makes sure that they have the right incentive
+                                        before
+                                        taking on a client. Lorem Ipsum available, but the majority have suffered
+                                        alteration
+                                        in some form, by injected humour, or randomised words.</p>
+
+                                    <div class="container-01">
+                                        <img src="./img/img_testimonial_01.svg" alt="img_testimonial_01"
+                                            style="width:90px">
+                                        <p class="mb-0 pt-2"><span>Johan Don</span></p>
+                                        <p class="athlete-text">ATHLETE</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-text text-start">
+                                <div class="p-4">
+                                    <h4>Our Customers</h4>
+                                    <p class="text-muted">A good coach makes sure that they have the right incentive
+                                        before
+                                        taking on a client. Lorem Ipsum available, but the majority have suffered
+                                        alteration
+                                        in some form, by injected humour, or randomised words.</p>
+
+                                    <div class="container-01">
+                                        <img src="./img/img_testimonial_01.svg" alt="img_testimonial_01"
+                                            style="width:90px">
+                                        <p class="mb-0 pt-2"><span>Johan Don</span></p>
+                                        <p class="athlete-text">ATHLETE</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide testimonial-text text-start">
+                                <div class="p-4">
+                                    <h4>Our Customers</h4>
+                                    <p class="text-muted">A good coach makes sure that they have the right incentive
+                                        before
+                                        taking on a client. Lorem Ipsum available, but the majority have suffered
+                                        alteration
+                                        in some form, by injected humour, or randomised words.</p>
+
+                                    <div class="container-01">
+                                        <img src="./img/img_testimonial_01.svg" alt="img_testimonial_01"
+                                            style="width:90px">
+                                        <p class="mb-0 pt-2"><span>Johan Don</span></p>
+                                        <p class="athlete-text">ATHLETE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial_arrows">
+                            <div class="testimonial-button-prev"><i class="fa-solid fa-arrow-left pe-2"></i></div>
+                            <div class="testimonial-button-next"><i class="fa-solid fa-arrow-right ps-2"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- customer section end -->
+
+    <!-- gallery section -->
+    <section id="gallery" class="mb-5">
+        <div class="text-center header-text py-3">
+            <h1>Gallery</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="container-fluid">
+                <div class="gallery row align-items-stretch ">
+                    <div class="col-2-5 col-md-6 col-sm-6 col-xxs-6 d-flex">
+                        <div>
+                            <img src="./img/img_client_02.jpeg" class="mb-4 img-gallery-02 rounded"
+                                alt="img_client_02.jpeg" onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_06.png" class="mb-4 rounded" alt="img_gallery_06"
+                                onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_011.png" class="mb-4 rounded" alt="img_gallery_011"
+                                onclick="openFullScreen(this)" style="width:100%">
+                        </div>
+                    </div>
+                    <div class=" col-2-5 col-md-6 col-sm-6 col-xxs-6 second-column d-flex">
+                        <div>
+                            <img src="./img/img_client_04.jpeg" class="mb-4 rounded img-gallery-01"
+                                alt="img_client_04.jpeg" onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_07.png" class="mb-4 rounded" alt="img_gallery_07"
+                                onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_012.png" class="mb-4 rounded" alt="img_gallery_012"
+                                onclick="openFullScreen(this)" style="width:100%">
+                        </div>
+                    </div>
+
+                    <div class=" col-2-5 col-md-6 col-sm-6 col-xxs-6 d-flex">
+                        <div class="third-coloumn">
+                            <img src="./img/img_client_03.jpeg" class="mb-4 rounded img-gallery-03"
+                                alt="iimg_client_03.jpeg" onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_08.png" class="mb-4 rounded" alt="img_gallery_08"
+                                onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_013.png" class="mb-4 rounded" alt="img_gallery_013"
+                                onclick="openFullScreen(this)" style="width:100%">
+                        </div>
+                    </div>
+                    <div class=" col-2-5 col-md-6 col-sm-6 col-xxs-6 d-flex">
+                        <div class="fourth-coloumn">
+                            <img src="./img/img_gallery_04.png" class="mb-4 rounded" alt="img_gallery_04"
+                                onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_09.png" class="mb-4 rounded" alt="img_gallery_09"
+                                onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_014.png" class="mb-4 rounded" alt="img_gallery_014"
+                                onclick="openFullScreen(this)" style="width:100%">
+                        </div>
+                    </div>
+
+
+                    <div class="col-2-5 col-md-6 col-sm-6 col-xxs-6 d-flex ">
+                        <div class="five-coloumn">
+                            <img src="./img/img_gallery_05.png" class="mb-4 rounded" alt="img_gallery_05"
+                                onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_010.png" class="mb-4 rounded" alt="img_gallery_010"
+                                onclick="openFullScreen(this)" style="width:100%">
+                            <img src="./img/img_gallery_015.png" class="mb-4 rounded" alt="img_gallery_015"
+                                onclick="openFullScreen(this)" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- for popup images -->
+            <div class="fullscreen-container" id="fullscreenContainer">
+                <span class="close-fullscreen" onclick="closeFullScreen()">×</span>
+                <img src="" alt="Fullscreen Image" id="fullscreenImage">
+                <div class="navigation-buttons">
+                    <button onclick="navigateImage(-1)" class="gallery-pre-btn"><i
+                            class="fa-solid fa-arrow-left"></i></button>
+                    <button onclick="navigateImage(1)" class="gallery-next-btn"><i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+    </section>
+    <!-- gallery section end -->
+
+    <!-- footer section -->
+    <footer class="text-white">
+        <div class="footer-back-layer">
+            <div class="footer-back-img pt-5">
+                <div class="container">
+                    <div class="row pb-4">
+                        <div class="col-lg-3 col-md-6 mt-3">
+                            <div>
+                                <img src="./img/logo.svg" class="img-fluid footer-logo" alt="">
+                                <p class="mt-4">Umiya is an online wed-tech portal which provides all the basic
+                                    requirements of wedding in a single platform from Wedding Venue to your Honeymoon
+                                    Getaway.</p>
+
+                                <div>
+                                    <div class="footer_icon d-flex">
+                                        <a href="#" class="me-4 footer-icon">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+
+                                        <a href="#" class="me-4 footer-icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+
+                                        <a href="#" class="me-4 footer-icon">
+                                            <i class="fa-brands fa-linkedin-in "></i>
+                                        </a>
+                                        <a href="#" class="footer-icon">
+                                            <i class="fa-brands fa-x-twitter "></i>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 footer_header mt-3">
+                            <h6>
+                                Usefull links
+                            </h6>
+                            <p class="mt-4 mb-2 hover-style">
+                                <a href="#home" class="text-reset text-decoration-none hover-a-style">Home</a>
+                            </p><br>
+                            <p class="mb-2 hover-style">
+                                <a href="#about" class="text-reset text-decoration-none hover-a-style">About us</a>
+                            </p><br>
+                            <p class="mb-2 hover-style">
+                                <a href="#service" class="text-reset text-decoration-none hover-a-style">Service</a>
+                            </p><br>
+                            <p class="mb-2 hover-style">
+                                <a href="#" class="text-reset text-decoration-none hover-a-style">Video</a>
+                            </p><br>
+                            <p class="mb-2 hover-style">
+                                <a href="#" class="text-reset text-decoration-none hover-a-style">Event</a>
+                            </p><br>
+                            <p class="mb-2 hover-style">
+                                <a href="#gallery" class="text-reset text-decoration-none hover-a-style">Gallery </a>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-3  col-md-6 footer_header mt-3">
+                            <h6 class="">Contact Us</h6>
+                            <div class="d-flex mt-4">
+                                <div class="col-lg-1 me-2">
+                                    <img src="./img/ic_footer_location.svg" alt="">
+                                </div>
+                                <div class="col-lg-11">
+                                    <a href="https://maps.app.goo.gl/icQFaRe7xfQRsLJc8" target="_blank"
+                                        class="text-decoration-none text-white footer_contact">Pandit Dindayal Upadhyay
+                                        Marg, Urjanagar 1, Kudasan, Gandhinagar, Gujarat
+                                        382421
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mt-4">
+                                <div class="col-lg-1 me-2">
+                                    <img src="./img/ic_footer_mail.svg" alt="">
+                                </div>
+                                <div class="col-lg-11">
+                                    <a class="text-decoration-none text-white footer_contact"
+                                        href="mailto:umiyadecoration23@gimal.com">umiyadecoration23@gimal.com</a>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mt-4">
+                                <div class="col-lg-1 me-2">
+                                    <img src="./img/ic_footer_call.svg" alt="">
+                                </div>
+                                <div class="col-lg-11">
+                                    <a class="text-decoration-none text-white footer_contact"
+                                        href="tel:+916351595718">+91
+                                        6351595718</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4  col-md-6 footer_header">
+                            <div class="footer-content">
+                                <div class="d-flex justify-content-around  mt-4">
+                                    <div class="footer-img">
+                                        <img src="img/img_footer_01.svg" alt="img_footer_01" class="img-fluid">
+                                    </div>
+                                    <div class="footer-img">
+                                        <img src="img/img_footer_02.svg" alt="img_footer_02" class="img-fluid">
+                                    </div>
+                                    <div class="footer-img">
+                                        <img src="img/img_footer_03.svg" alt="img_footer_03" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-around align-items-center my-2">
+                                    <div class="mt-2 footer-img">
+                                        <img src="img/img_footer_04.svg" alt="img_footer_04" class="img-fluid">
+                                    </div>
+                                    <div class="mt-2 footer-img">
+                                        <img src="img/img_footer_05.svg" alt="img_footer_05" class="img-fluid">
+                                    </div>
+                                    <div class="mt-2 footer-img">
+                                        <img src="img/img_footer_06.svg" alt="img_footer_06" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center footer-text py-4 border-top">
+                    <p class="mb-0">@2024 All rights reserved. Designed by <a
+                            class="text-decoration-none text-white fw-bold" href="https://festumfield.com/"
+                            target="_blank">Festum Field</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end-->
+    
+
+
+    <!-- back to top button -->
+    <button type="button" class="btn-floating btn-lg  back-to-top-button" id="btn-back-to-top">
+        <img src="./img/back-to-top-btn.svg" class="img-fluid " alt="ic-back-to-top">
+    </button>
+    <!-- javascript link -->
+    <script src="./js/main.js"></script>
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Jquery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- font awesome -->
+    <script src="./js/all.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
